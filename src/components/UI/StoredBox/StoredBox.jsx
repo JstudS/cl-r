@@ -3,7 +3,6 @@ import { ValuesContext } from "../../../context";
 
 const StoredBox = () => {
     const {storedExp, setValueToShow} = useContext(ValuesContext)
-    console.log(storedExp)
     return (
         <div>
             <div className="stored-box">

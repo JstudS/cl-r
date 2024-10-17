@@ -5,7 +5,7 @@ import './styles/App.css'
 function App() {
   return (
     <div className="App">
-      <BackgroundComponent calculator={<Calculator />}/>
+      <BackgroundComponent calculator={<Calculator containerClassName={'App'}/>}/>
     </div>
   );
 }
